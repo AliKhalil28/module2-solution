@@ -1,0 +1,145 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 992px) {
+    h1 {
+        text-align: center;
+        font-size: 291%;
+        margin: 43px;
+        margin-bottom: 23px;
+    }
+
+    .section {
+        width: 31%;
+        float: left;
+        position: relative;
+        border: 1px solid black;
+        color: rgb(18, 5, 5);
+        margin: 10px;
+        background-color: rgb(151, 143, 143);
+        padding: 10px;
+        font-size: 30px;
+    }
+
+    .section p {
+        margin-top: 60px;
+    }
+
+    .title {
+        background-color: rgb(137, 64, 206);
+        width: 37%;
+        font-size: 34px;
+        border: 1px solid black;
+        text-align: center;
+        top: 0px;
+        right: 0px;
+        position: absolute;
+    }
+
+    .scnd {
+        background-color: aquamarine;
+    }
+
+    .third {
+        background-color: rgb(202, 116, 81);
+    }
+}
+
+@media screen and (max-width: 998px) and (min-width: 767px) {
+    h1 {
+        text-align: center;
+        font-size: 291%;
+        margin: 56px;
+        margin-bottom: 23px;
+    }
+
+    .section {
+        width: 47%;
+        float: left;
+        position: relative;
+        border: 1px solid black;
+        color: rgb(18, 5, 5);
+        margin: 10px;
+        background-color: rgb(151, 143, 143);
+        padding: 10px;
+        font-size: 30px;
+    }
+
+    .section p {
+        margin-top: 60px;
+        padding: 8px;
+    }
+
+    .row2 {
+        width: 100%;
+        float: left;
+    }
+
+    .title {
+        background-color: rgb(137, 64, 206);
+        width: 38%;
+        font-size: 34px;
+        border: 1px solid black;
+        text-align: center;
+        top: 0px;
+        right: 0px;
+        position: absolute;
+    }
+
+    .scnd {
+        background-color: aquamarine;
+    }
+
+    .third {
+        background-color: rgb(202, 116, 81);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    h1 {
+        text-align: center;
+        font-size: 291%;
+        margin-top: 66px;
+        margin-bottom: 24px;
+    }
+
+    .section {
+        width: 100%;
+        float: left;
+        position: relative;
+        border: 1px solid black;
+        color: rgb(18, 5, 5);
+        margin-bottom: 22px;
+        background-color: rgb(151, 143, 143);
+        padding: 18px;
+        font-size: 30px;
+    }
+
+    .section p {
+        margin-top: 34px;
+    }
+
+    .title {
+        background-color: rgb(137, 64, 206);
+        width: 37%;
+        font-size: 34px;
+        border: 1px solid black;
+        text-align: center;
+        top: 0px;
+        right: 0px;
+        position: absolute;
+    }
+
+    .scnd {
+        background-color: aquamarine;
+    }
+
+    .third {
+        background-color: rgb(202, 116, 81);
+    }
+
+}
